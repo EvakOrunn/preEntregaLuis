@@ -1,0 +1,73 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #caf0f8;
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.flex-container { 
+    margin: auto;
+}
+
+/* Header Styles */
+
+header .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo-container {
+    margin: 15px 0;
+    height: 100px;
+    width: 100px;
+}
+
+header .logo {
+    border-radius: 50px;
+}
+
+header nav {
+    display: flex;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header li {
+    display: inline;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #05668d;
+    font-weight: bold;
+}
+
+header a:hover {
+    transition: ease 0.3s;
+    color: #03045e;
+}
+
+/* Main Style */
+
+
