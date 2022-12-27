@@ -13,7 +13,9 @@ header {
 
 main {}
 
-footer {}
+footer {
+    background-color: #caf0f8;
+}
 
 img {
     max-width: 100%;
@@ -292,4 +294,131 @@ header a:hover {
 
 .name {
     font-weight: 600;
+}
+
+/* Footer Styles */
+
+.copy-text {
+    margin: 20px 0;
+}
+
+.copy-text p {
+    text-align: center;
+}
+
+.social-networks-links {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.social-networks-links li {
+    display: inline;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.social-networks-links a {
+    text-decoration: none;
+    color: #05668d;
+    font-weight: bold;
+}
+
+.social-networks-links a:hover {
+    transition: ease 0.3s;
+    color: #03045e;
+}
+
+.enrollment-card-container {
+    display: flex;
+}
+
+.enrollment-card {
+    height: 550px;
+    width: 500px;
+    margin: 50px 100px;
+    background-color: #a8dadc;
+    border-radius: 10px;
+    box-shadow: 9px 9px 18px #b3b3b3,
+        -9px -9px 18px #ffffff;
+    text-align: center;
+}
+
+.card-img {
+    height: 350px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-main-text {
+    margin: 20px 0;
+}
+
+.card-info {
+    margin: 12px 0;
+}
+
+.button-container {
+    margin-top: 14px;
+}
+
+.button-container button {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid #4f4f4f;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 13px;
+    color: black;
+    z-index: 1;
+}
+
+.button-container button:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+.button-container button:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #39bda7;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+.button-container button:hover {
+    color: #ffffff;
+    border: 1px solid #39bda7;
+    cursor: pointer;
+}
+
+.button-container button:hover:before {
+    top: -35%;
+    background-color: #39bda7;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button-container button:hover:before {
+    top: -45%;
+    background-color: #39bda7;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
