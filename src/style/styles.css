@@ -480,3 +480,36 @@ header a:hover {
     font-size: 14px;
     color: #000;
 }
+
+.img-portrait {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-portrait img {
+    margin: 30px 0;
+    height: 400px;
+    width: 300px;
+}
+
+.legend-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.legend-text p {
+    font-weight: bold;
+}
+
+.much-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    margin: 0 80px;
+}
