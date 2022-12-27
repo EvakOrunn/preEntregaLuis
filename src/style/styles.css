@@ -358,11 +358,11 @@ header a:hover {
     margin: 12px 0;
 }
 
-.button-container {
+#enrollment .button-container {
     margin-top: 14px;
 }
 
-.button-container button {
+#enrollment .button-container button {
     display: inline-block;
     padding: 12px 24px;
     border: 1px solid #4f4f4f;
@@ -375,7 +375,7 @@ header a:hover {
     z-index: 1;
 }
 
-.button-container button:before {
+#enrollment .button-container button:before {
     content: "";
     position: absolute;
     left: 50%;
@@ -390,7 +390,7 @@ header a:hover {
     z-index: -1;
 }
 
-.button-container button:after {
+#enrollment .button-container button:after {
     content: "";
     position: absolute;
     left: 55%;
@@ -405,19 +405,19 @@ header a:hover {
     z-index: -1;
 }
 
-.button-container button:hover {
+#enrollment .button-container button:hover {
     color: #ffffff;
     border: 1px solid #39bda7;
     cursor: pointer;
 }
 
-.button-container button:hover:before {
+#enrollment .button-container button:hover:before {
     top: -35%;
     background-color: #39bda7;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
-.button-container button:hover:before {
+#enrollment .button-container button:hover:before {
     top: -45%;
     background-color: #39bda7;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
