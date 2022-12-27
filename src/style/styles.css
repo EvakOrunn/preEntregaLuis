@@ -513,3 +513,9 @@ header a:hover {
     text-align: justify;
     margin: 0 80px;
 }
+
+#more-information p {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
