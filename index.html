@@ -5,147 +5,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/styles.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <title>Instituto Nikola Tesla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45e652dafa.js" crossorigin="anonymous"></script>
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Test</title>
 </head>
 
 <body>
-    <header>
-        <div class="flex-container">
-            <div class="logo-container">
-                <picture>
-                    <img src="./img/instituto-nikola-tesla-logo.png" alt="Instituto Nikola Tesla Logo" class="logo">
-                </picture>
+    <div class="grid-container">
+        <header class="border">
+            <div class="flex-container">
+                <div class="logo-container">
+                    <picture>
+                        <img src="./img/instituto-nikola-tesla-logo.png" alt="Instituto Nikola Tesla Logo" class="logo">
+                    </picture>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./pages/inscripcion.html">Inscripciones</a>
-                    </li>
-                    <li>
-                        <a href="./pages/administracion.html">Aministracion</a>
-                    </li>
-                    <li>
-                        <a href="./pages/nosotros.html">Sobre Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="./pages/contactanos.html">Contactanos</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section id="hero">
+        </header>
+        <nav class="border">
+            <ul class="navbar">
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./pages/inscripciones.html">Inscripciones</a>
+                </li>
+                <li>
+                    <a href="./pages/administracion.html">Administracion</a>
+                </li>
+                <li>
+                    <a href="#">Nuestra Historia</a>
+                </li>
+                <li>
+                    <a href="#">Contactanos</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="hero" class="border">
             <h1>Instituto Nikola Tesla</h1>
         </section>
 
-        <section id="scholarship">
-            <div class="flex-container">
-                <div class="scholarship-card">
-                    <div class="scholship-info">
-                        <h2>Sistema de Becas</h2>
-                        <div class="spacer"></div>
-                        <h3>Al alcence de todos los alumnos</h3>
-                        <div class="spacer"></div>
-                        <p>Conoce todas las becas que te proporciona el Instituto Nikola Tesla para facilitar tu paso
-                            por
-                            ella</p>
-                        <div class="spacer"></div>
-                        <button>Conoce más</button>
-                    </div>
-                    <div>
-                        <img src="./img/student-scholarship-portrait.jpg" alt="Scholarship Image">
-                    </div>
+        <section id="scholarship" class="border">
+            <div class="scholarship-container">
+                <div class="scholarship-info">
+                    <h2>Sistema de Becas</h2>
+                    <h3>Al alcence de todos los alumnos</h3>
+                    <p>Conoce todas las becas que te proporciona el Instituto Nikola Tesla para facilitar tu paso por ella</p>
+                    <button>Conoce Más</button>
+                </div>
+                <div class="scholarship-img">
+                    <img src="./img/student-scholarship-portrait.jpg" alt="Scholarship Img">
                 </div>
             </div>
         </section>
 
         <section id="news">
-            <div class="heading-text">
-                <h2>Noticias sobre la Institucion</h2>
-            </div>
-            <div class="flex-container">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="./img/new-card-img-00.jpg" alt="News">
+            <h2>Noticias de la Institucion</h2>
+            <div class="news-container">
+                <div class="news-card">
+                    <div class="news-card-img">
+                        <img class="card-img" src="./img/new-card-img-00.jpg" alt="Notice Img">
                     </div>
-                    <div class="heading">
-                        <p>A heading that must span over two lines</p>
-                    </div>
-                    <div class="spacer"></div>
-                    <div class="button-container">
-                        <button class="learn-more">
-                            <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                            </span>
-                            <span class="button-text">Mas Info</span>
-                        </button>
-                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <a href="#">Leer Más</a>
                 </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="./img/new-card-img-01.jpg" alt="News">
+
+                <div class="news-card">
+                    <div class="news-card-img">
+                        <img class="card-img" src="./img/new-card-img-01.jpg" alt="Notice Img">
                     </div>
-                    <div class="heading">
-                        <p>A heading that must span over two lines</p>
-                    </div>
-                    <div class="spacer"></div>
-                    <div class="button-container">
-                        <button class="learn-more">
-                            <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                            </span>
-                            <span class="button-text">Mas Info</span>
-                        </button>
-                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <a href="#">Leer Más</a>
                 </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="./img/new-card-img-02.jpg" alt="News">
+
+                <div class="news-card">
+                    <div class="news-card-img">
+                        <img class="card-img" src="./img/new-card-img-02.jpg" alt="Notice Img">
                     </div>
-                    <div class="heading">
-                        <p>A heading that must span over two lines</p>
-                    </div>
-                    <div class="spacer"></div>
-                    <div class="button-container">
-                        <button class="learn-more">
-                            <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                            </span>
-                            <span class="button-text">Mas Info</span>
-                        </button>
-                    </div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <a href="#">Leer Más</a>
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
-        <div class="flex-container">
-            <div class="copy-text">
-                <p>&copy;Todos los derechos reservados</p>
-            </div>
-            <div class="social-networks-links">
-                <ul>
-                    <li>
-                        <a href="#">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="#">Instagram</a>
-                    </li>
-                    <li>
-                        <a href="#">Twitter</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        <aside class="border">
+            Aside
+        </aside>
+        <footer class="border">
+            <p class="copy">
+                &copy; Todos los derechos reservados
+            </p>
+            <ul class="social-networks-links">
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>
