@@ -5,78 +5,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/styles.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45e652dafa.js" crossorigin="anonymous"></script>
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="../style/styles.css">
     <title>Contactanos</title>
 </head>
 
 <body>
-    <header>
-        <div class="flex-container">
-            <div class="logo-container">
-                <picture>
-                    <img src="../img/instituto-nikola-tesla-logo.png" alt="Instituto Nikola Tesla Logo" class="logo">
-                </picture>
+    <div class="grid-container">
+        <header>
+            <div class="flex-container">
+                <div class="logo-container">
+                    <picture>
+                        <img src="../img/instituto-nikola-tesla-logo.png" alt="Instituto Nikola Tesla Logo"
+                            class="logo">
+                    </picture>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="/index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="../pages/inscripcion.html">Inscripciones</a>
-                    </li>
-                    <li>
-                        <a href="../pages/administracion.html">Aministracion</a>
-                    </li>
-                    <li>
-                        <a href="../pages/nosotros.html">Sobre Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="../pages/contactanos.html">Contactanos</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section id="more-information">
-            <div class="flex-contaier">
-                <h2 class="main-text">Contactanos por estos medios</h2>
-                <p>
-                    Horarios de atencion al publico: 08:00hs - 12:00hs | 14:00hs -17:00hs <br>
-                    email: institutonikolatesla@gmail.com <br>
-                    Telefono: +54 385 1234-567 <br>
-                    Ubicacion: Av.Libertad 1340
-                </p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique est adipisci sapiente cupiditate sint consequatur autem consectetur ipsum nihil dicta?
-                </p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="flex-container">
-            <div class="copy-text">
-                <p>&copy;Todos los derechos reservados</p>
-            </div>
-            <div class="social-networks-links">
-                <ul>
-                    <li>
-                        <a href="#">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="#">Instagram</a>
-                    </li>
-                    <li>
-                        <a href="#">Twitter</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </header>
+        <nav class="border">
+            <ul class="navbar">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="../pages/inscripcion.html">Inscripciones</a>
+                </li>
+                <li>
+                    <a href="../pages/administracion.html">Administracion</a>
+                </li>
+                <li>
+                    <a href="../pages/nosotros.html">Nuestra Historia</a>
+                </li>
+                <li>
+                    <a href="../pages/contactanos.html">Contactanos</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section id="more-information">
+                <div class="flex-contaier">
+                    <h2 class="main-text">Contactanos por estos medios</h2>
+                    <div class="img-container">
+                        <img class="locate-img" src="../img/ubication.jpg" alt="ubicacion">
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            Horarios de atencion al publico: 08:00hs - 12:00hs | 14:00hs -17:00hs <br> <br>
+                            email: institutonikolatesla@gmail.com <br> <br>
+                            Telefono: +54 385 1234-567 <br> <br>
+                            Ubicacion: Av.Libertad 1340 <br> <br>
+                        </p>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique est adipisci sapiente
+                            cupiditate sint consequatur autem consectetur ipsum nihil dicta?
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="border">
+            <p class="copy">
+                &copy; Todos los derechos reservados
+            </p>
+            <ul class="social-networks-links">
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>
